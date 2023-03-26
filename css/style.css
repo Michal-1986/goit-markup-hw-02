@@ -19,6 +19,7 @@ body {
   --headertext-color-secondary: #000000;
   --headerlink-color: #757575;
   --heading-color: #ffffff;
+  --heading-background: #2f303a;
 }
 .logo-web,
 .logo-studio {
@@ -27,6 +28,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 16px;
+  letter-spacing: 0.03em;
 }
 .logo-web {
   color: var(--headertext-color-primary);
@@ -40,6 +42,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 31px;
+  letter-spacing: 0.02em;
 }
 .header-link-agency {
   color: var(--headertext-color-primary);
@@ -49,4 +52,29 @@ body {
 }
 .header-link-phone {
   color: var(--headerlink-color);
+}
+.heading-color {
+  color: var(--heading-color);
+}
+.heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.heading-background {
+  background-color: var(--heading-background);
+}
+.button-text-studio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: var(--headertext-color-primary);
+  color: var(--heading-color);
 }
