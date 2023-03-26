@@ -56,6 +56,10 @@ body {
 .heading-color {
   color: var(--heading-color);
 }
+.link:hover,
+link:focus {
+  color: var(--headertext-color-primary);
+}
 .heading {
   font-family: "Roboto";
   font-style: normal;
@@ -76,7 +80,6 @@ body {
   line-height: 30px;
   background-color: var(--headertext-color-primary);
   color: var(--heading-color);
-  cursor: pointer;
 }
 .button-portfolio {
   font-style: normal;
@@ -150,7 +153,7 @@ body {
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 }
-.portfolio-roject-type {
+.portfolio-project-type {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -172,7 +175,4 @@ body {
 }
 .footer-contact {
   color: var(--footer-contact);
-}
-.footer-background {
-  background-color: var(--heading-background);
 }
