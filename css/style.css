@@ -20,6 +20,7 @@ body {
   --headerlink-color: #757575;
   --heading-color: #ffffff;
   --heading-background: #2f303a;
+  --footer-contact: rgba(255, 255, 255, 0.6);
 }
 .logo-web,
 .logo-studio {
@@ -37,7 +38,6 @@ body {
   color: var(--headertext-color-secondary);
 }
 .header-link {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -69,7 +69,7 @@ body {
 .heading-background {
   background-color: var(--heading-background);
 }
-.button-text-studio {
+.button-studio {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -77,6 +77,17 @@ body {
   background-color: var(--headertext-color-primary);
   color: var(--heading-color);
   cursor: pointer;
+}
+.button-portfolio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading-color);
+  background-color: var(--headertext-color-primary);
 }
 .heading-studio-secondary {
   font-style: normal;
@@ -130,4 +141,38 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--headerlink-color);
+}
+.portfolio-project-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.portfolio-roject-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: var(--headerlink-color);
+}
+.footer-contact-all {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+.footer-address {
+  color: var(--heading-color);
+}
+.footer-contact {
+  color: var(--footer-contact);
+}
+.footer-background {
+  background-color: var(--heading-background);
 }
